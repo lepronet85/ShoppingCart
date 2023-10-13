@@ -1,0 +1,14 @@
+/* Style de la barre de défilement */
+#cart-items-container::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Style du pouce de la barre de défilement (la poignée) */
+#cart-items-container::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+}
+
+/* Style de la piste de la barre de défilement */
+#cart-items-container::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
